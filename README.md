@@ -1,7 +1,7 @@
 # Vehicle Detection
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-In this project, my goal is to write a software pipeline to detect vehicles in a video (start with the test_video.mp4 and later implement on full project_video.mp4), but the main output or product we want you to create is a detailed writeup of the project.  The rest of the project writeup can be accessed via [PDF](VehicleDetection.pdf) or [Jupyter notebook](VehicleDetection.ipynb).
+In this project, my goal is to write a software pipeline to detect vehicles in a video and write detailed description of my process.  The project writeup can be accessed via [PDF](VehicleDetection.pdf) or [Jupyter notebook](VehicleDetection.ipynb).
 
 The Project
 ---
