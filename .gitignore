@@ -1,3 +1,9 @@
 train/
 examples/
 .ipynb_checkpoints/
+car_windows/
+frames_weird/
+noncar_windows/
+test_video_output.mp4
+unclassified_windows/
+video_frames/
