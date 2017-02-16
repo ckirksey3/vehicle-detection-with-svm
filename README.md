@@ -12,8 +12,6 @@ The Project
 * Run the pipeline on a video stream and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
-I trained my vehicle image classifier this labeled data: [vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip) and [non-vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip) examples to train your classifier.  These example images come from a combination of the [GTI vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html), the [KITTI vision benchmark suite](http://www.cvlibs.net/datasets/kitti/), and examples extracted from the project video itself.
-
 ---
 
 ## How to Run the Project
@@ -26,6 +24,13 @@ cd vehicle-detection-with-svm
 
 #### Set up your environment
 If you don't already have tools like Jupyter and OpenCV installed, follow the [Udacity instructions](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md) to configure an anaconda environment that will give you these tools.
+
+### Download the training set
+Download and unzip the training data into a new directory called "train" within the vehicle-detection-with-svm directory.
+
+[Vehicle images](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip)
+
+[Non-vehicle images](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip)
 
 #### Run the notebook
 ```
