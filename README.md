@@ -25,7 +25,7 @@ cd vehicle-detection-with-svm
 #### Set up your environment
 If you don't already have tools like Jupyter and OpenCV installed, follow the [Udacity instructions](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md) to configure an anaconda environment that will give you these tools.
 
-### Download the training set
+#### Download the training set
 Download and unzip the training data into a new directory called "train" within the vehicle-detection-with-svm directory.
 
 [Vehicle images](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip)
