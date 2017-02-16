@@ -48,6 +48,7 @@ You can also run the whole notebook in a single step by clicking on the menu Cel
 
 ### Feature Extraction
 ![Image](resources/sample_car.png?raw=true "")
+
 I used a [Linear SVM](https://en.wikipedia.org/wiki/Support_vector_machine) to classify image segments (such as the one above) from the car's camera as either vehicles or non-vehicles. The key to building an accurate classifier was feeding it the right features.
 
 #### Histogram of Oriented Gradients (HOG)
@@ -63,10 +64,12 @@ Ultimately I found that using YCrCB color space, 9 orientations, 8 pixels per ce
 
 #### Color Histogram
 ![Image](resources/color.png?raw=true "")
+
 Another feature that I feed to my classifier is a histogram that captures the general distribution of colors within the image, irrespective of the actual location of the colors within the image. This is very useful as many cars have similar color distributions while still having significant differences in shape.
 
 #### Spatial Feature
 ![Image](resources/spatial.png?raw=true "")
+
 I pulled out the spatial features of the image by feeding a downgraded (32, 32) version of each training image in RGB color space. This helps our classifier get a sense for where the different colors are within the image.
 
 ### Sliding Window Search
